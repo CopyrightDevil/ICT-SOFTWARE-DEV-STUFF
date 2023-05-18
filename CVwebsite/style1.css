@@ -1,0 +1,74 @@
+h1 {
+    color: navy;
+   font-size: 150%;
+   background-color: cornflowerblue;
+}
+h2 {
+    
+    color: navy;
+    font-size: large;
+    background-color: cornflowerblue;
+}
+body {
+    color: navy;
+    font-size: 15px;
+    background-color: cornflowerblue;
+}
+img {
+    width: 15%;
+    height: 150px;
+}
+.charteuse {
+    color: navy; font-weight: bold
+}
+a{
+    display: inline
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
