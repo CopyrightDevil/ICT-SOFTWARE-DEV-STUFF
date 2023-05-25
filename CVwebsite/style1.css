@@ -2,12 +2,7 @@ h1 {
     color: navy;
    font-size: 150%;
    background-color: cornflowerblue;
-}
-h2 {
-    
-    color: navy;
-    font-size: large;
-    background-color: cornflowerblue;
+   text-align: left;
 }
 body {
     color: navy;
@@ -31,6 +26,8 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    font-size: 18px;
+    text-align: center;
   }
   
   .navbar {
@@ -76,5 +73,23 @@ body {
   .subnav:hover .subnav-content {
     display: block;
   }
-
-  
+p {
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 18px;
+}
+div h2{
+  color: blue;
+}
+div > p {
+  text-align: center;
+}
+#d {
+  color: navy;
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
