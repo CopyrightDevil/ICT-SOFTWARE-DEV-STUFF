@@ -116,3 +116,7 @@ gap: 20px;
 }
 /* Ik koos ervoor om een achtergrond kleur te zetten zodat het er een beetje mooier uitziet in mijn mening */
 
+img {
+  width: 300px;
+  height: 300px;
+}
