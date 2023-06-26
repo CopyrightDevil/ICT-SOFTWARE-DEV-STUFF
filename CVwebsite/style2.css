@@ -109,3 +109,9 @@ grid-template-areas:
 ;
 gap: 20px;
 }
+@media only screen and (max-width: 1050px) 
+  body {
+    background-color: rgb(167, 222, 240);
+  }
+/* Ik koos ervoor om een achtergrond kleur te zetten zodat het er een beetje mooier uitziet in mijn mening */
+
